@@ -15,12 +15,12 @@ export const Proyecto = () => {
 
             console.log(proyecto)
             setProyecto(proyecto[0]);
-    },[])
+    },[params.nombre])
 
     return (
         <div className='page page-work'>
             <div className='mask'>
-                <img src={"/images/"+proyecto.id+".jpg"}/>
+                <img src={"/images/"+proyecto.id+".jpg"} alt={proyecto.id}/>
             </div>
             <h1 className='heading'>{proyecto.nombre}</h1>
             <p className='tecnologies'>{proyecto.tecnologias}</p>

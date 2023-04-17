@@ -27,6 +27,7 @@ export const Contacto = () => {
         mensaje: " "
     });
 
+        console.log(objetoState)
         const recogerDatos = (e)=>{
             e.preventDefault();
             
