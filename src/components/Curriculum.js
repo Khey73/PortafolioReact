@@ -28,7 +28,7 @@ export const Curriculum = () => {
 
             <h2>Certificados</h2>
             <ul>
-                <li><a></a></li>
+                
             </ul>
 
             <h2>Experiencia Laboral</h2>
