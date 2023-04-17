@@ -1,0 +1,135 @@
+#formContact{
+    padding: 15px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    min-height: 700px;
+    border-radius: 7px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 4px #ccc;
+    position: relative;
+
+    animation-duration: 1.2s;
+    animation-name: carga;
+}
+
+@keyframes carga{
+    from{
+        opacity: 0;
+        top: 100px;
+    }
+    to{
+        opacity: 100%;
+        top: 0;
+    }
+}
+
+#formContact .heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+
+#formContact input[type="text"]{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    transition: all 500ms linear;
+
+    font-size: 15px;
+    transition: all 500ms linear;
+
+}
+
+#formContact input[type="text"]:focus{
+    border-bottom: 2px solid red;
+
+}
+
+#formContact textarea{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    border: 2px solid black;
+    transition: all 500ms linear;
+}
+#formContact textarea:focus{
+    outline: none;
+    border: 2px solid red;
+}
+
+#btn-enviar{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: rgb(37, 102, 48);
+    font-size: 13px;
+    text-transform: uppercase;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #b6b3b3;
+    transition:  all 700ms linear;
+}
+#btn-enviar:hover{
+    cursor: pointer;
+    background-color: rgb(28, 230, 61);
+    color: black;
+}
+
+
+label{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    margin-top: 35px;
+    font-size: 12px;
+    color: rgb(98,97,97);
+    text-transform: uppercase;
+}
+
+
+/*ERRORES*/
+
+.error{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: red;
+    font-style: bold;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.validacion{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: rgb(0, 255, 64);
+    font-style: bold;
+    border: 1px solid rgb(0, 255, 64);
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 255, 64);
+    color: black;
+    font-weight: bold;
+}

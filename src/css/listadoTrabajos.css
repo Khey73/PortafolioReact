@@ -1,0 +1,15 @@
+
+.page-work{
+    animation-duration: 2s;
+    animation-name: bottom-transition;
+}
+
+@keyframes bottom-transition {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}

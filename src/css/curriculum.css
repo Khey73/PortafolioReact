@@ -1,0 +1,17 @@
+#curriculum{
+    position: relative;
+    animation-duration: 1.3s;
+    animation-name: right-transition;
+}
+
+@keyframes right-transition{
+    from{
+      opacity: 0%;
+      right: 100px;
+  
+    }
+    to{
+      right: 0px;
+      opacity: 100%;
+    }
+  }
